@@ -1,0 +1,17 @@
+{
+  "Mp3Repeat.Forever|block": "dauerhaft",
+  "Mp3Repeat.No|block": "einmal",
+  "makerbit.connectSerialMp3|block": "verbinde MP3 Gerät mit MP3 RX an %mp3RX | und MP3 TX an %mp3TX",
+  "makerbit.mp3Folder|block": "MP3 Ordner",
+  "makerbit.mp3Track|block": "MP3 Titel",
+  "makerbit.mp3Volume|block": "MP3 Lautstärke",
+  "makerbit.onMp3TrackCompleted|block": "wenn MP3 Titel endet",
+  "makerbit.onMp3TrackStarted|block": "wenn MP3 Titel beginnt",
+  "makerbit.playMp3Folder|block": "spiele MP3 Ordner %folder | %repeat",
+  "makerbit.playMp3TrackFromFolder|block": "spiele MP3 Titel %track | im Ordner %folder | %repeat",
+  "makerbit.runMp3Command|block": "starte MP3 Kommando %command",
+  "makerbit.setMp3Volume|block": "stelle MP3 Lautstärke auf %volume",
+  "makerbit|block": "MakerBit",
+  "{id:category}Makerbit": "Makerbit",
+  "{id:subcategory}MP3": "MP3"
+}
