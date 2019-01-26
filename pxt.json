@@ -1,14 +1,15 @@
 {
     "name": "pxt-makerbit-mp3-calliope",
     "version": "0.0.1",
-    "description": "",
+    "description": "MakeCode extension for Serial MP3 devices with the YX5300 chip (Calliope Mini Version)",
     "dependencies": {
         "core": "*",
         "radio": "*"
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "_locales/de/MakerBit-MP3-strings.json"
     ],
     "testFiles": [
         "test.ts"
