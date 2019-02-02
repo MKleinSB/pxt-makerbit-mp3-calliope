@@ -50,13 +50,13 @@ namespace makerbit {
         );
 
         while (true) {
-            const first = serial.readBuffer(1); // hier müsste die C++ Funktion einspringen
+            const first = serial_rb.readBuffer(1); // hier müsste die C++ Funktion einspringen
 
             if (
                 first.getNumber(NumberFormat.UInt8LE, 0) ==
                 YX5300.ResponseType.RESPONSE_START_BYTE
             ) {
-                const remainder = serial.readBuffer(9); // hier müsste die C++ Funktion einspringen
+                const remainder = serial_rb.readBuffer(9); // hier müsste die C++ Funktion einspringen
                 responseBuffer.write(1, remainder);
                 const response = YX5300.decodeResponse(responseBuffer);
                 handleResponse(response);
@@ -303,7 +303,7 @@ namespace makerbit {
     }
 
     function sendCommand(command: Buffer): void {
-        serial.writeBuffer(command); // hier müsste die C++ Funktion einspringen
+        serial_rb.writeBuffer(command); // hier müsste die C++ Funktion einspringen
         control.waitMicros(1000 * YX5300.REQUIRED_PAUSE_BETWEEN_COMMANDS_MILLIS);
     }
 
