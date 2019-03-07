@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.org/MKleinSB/pxt-makerbit-mp3-calliope.svg?branch=master)](https://travis-ci.org/MKleinSB/pxt-makerbit-mp3-calliope)
 
 MakeCode extension for Serial MP3 players with the YX5300 chip.
+![](https://github.com/MKleinSB/pxt-makerbit-mp3-calliope/blob/master/mbmp3.jpg) 
+
 
 ## MakerBit Board
 
